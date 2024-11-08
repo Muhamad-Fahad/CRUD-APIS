@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.page-header {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3498db;
+}
+
+.page-header h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.story-card {
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #3498db;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-warning {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border: none;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.25);
+}
+
+.stories-section {
+    margin-top: 3rem;
+}
+
+.stories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.story-count {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+} 
